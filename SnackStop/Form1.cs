@@ -1,10 +1,13 @@
 namespace SnackStop
 {
-    public partial class Form1 : Form
+    public partial class Hauptfenster : Form
     {
-        public Form1()
+        public Hauptfenster()
         {
             InitializeComponent();
+
+
+            //Test 4
         }
     }
 }
