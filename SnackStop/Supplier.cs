@@ -10,7 +10,7 @@ namespace SnackStop
     {
         public Supplier() { }
 
-        public Supplier(int user_id, string first_name, string last_name, string city, int postal_code, string address, string email, int tel)
+        public Supplier(int user_id, string first_name, string last_name, string city, int postal_code, string address, string email, string tel)
         {
             this.user_id = user_id;
             this.first_name = first_name;
@@ -29,7 +29,7 @@ namespace SnackStop
         private int postal_code;
         private string address;
         private string email;
-        private int tel;
+        private string tel;
 
         public int User_id { get => user_id; set => user_id = value; }
         public string First_name { get => first_name; set => first_name = value; }
@@ -38,6 +38,6 @@ namespace SnackStop
         public int Postal_code { get => postal_code; set => postal_code = value; }
         public string Address { get => address; set => address = value; }
         public string Email { get => email; set => email = value; }
-        public int Tel { get => tel; set => tel = value; }
+        public string Tel { get => tel; set => tel = value; }
     }
 }
