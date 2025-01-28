@@ -31,5 +31,13 @@ namespace SnackStop
         private string email;
         private int tel;
 
+        public int User_id { get => user_id; set => user_id = value; }
+        public string First_name { get => first_name; set => first_name = value; }
+        public string Last_name { get => last_name; set => last_name = value; }
+        public string City { get => city; set => city = value; }
+        public int Postal_code { get => postal_code; set => postal_code = value; }
+        public string Address { get => address; set => address = value; }
+        public string Email { get => email; set => email = value; }
+        public int Tel { get => tel; set => tel = value; }
     }
 }

@@ -27,5 +27,11 @@ namespace SnackStop
         private int stock_quanity;
         private int total_purchased; //glaube int ist bissn small
 
+        public int Product_id { get => product_id; set => product_id = value; }
+        public string Name { get => name; set => name = value; }
+        public string Description { get => description; set => description = value; }
+        public string Price { get => price; set => price = value; }
+        public int Stock_quanity { get => stock_quanity; set => stock_quanity = value; }
+        public int Total_purchased { get => total_purchased; set => total_purchased = value; }
     }
 }
