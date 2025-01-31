@@ -81,34 +81,19 @@ namespace SnackStop
                 // split email,username and password
 
                 // check if email, username and password correct
-                if (mailTB.Text == credentials[0] && usernameTB.Text == credentials[1] && passwdTB.Text == credentials[2])
+                // check if email, username and password correct
+                if (usernameTB.Text == credentials[0] && passwdTB.Text == credentials[1])
                 {
                     // set dialogResult to OK to close login and show main window
                     this.DialogResult = DialogResult.OK;
                     return;
-
-                    
-                    
-                        // hide login window
-                        this.Hide();
-
-                        // Instance MainWindow Form
-                        Hauptfenster mainWindow = new Hauptfenster();
-
-                        
-                        mainWindow.Show();
-
-                        // close login Form
-                        mainWindow.FormClosed += (s, args) => this.Close();
-
-                        return;
                     
                 }
+
             }
 
             // failed login msg
-            MessageBox.Show("Login failed. Invalid email,username or password.");
-
+            MessageBox.Show("Login failed. Invalid username or password.");
 
         }
 

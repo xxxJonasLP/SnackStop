@@ -54,9 +54,9 @@
             this.loginPanel.HorizontalScrollbarBarColor = true;
             this.loginPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.loginPanel.HorizontalScrollbarSize = 11;
-            this.loginPanel.Location = new System.Drawing.Point(40, 53);
+            this.loginPanel.Location = new System.Drawing.Point(54, 212);
             this.loginPanel.Name = "loginPanel";
-            this.loginPanel.Size = new System.Drawing.Size(338, 621);
+            this.loginPanel.Size = new System.Drawing.Size(315, 385);
             this.loginPanel.Style = MetroFramework.MetroColorStyle.Blue;
             this.loginPanel.StyleManager = null;
             this.loginPanel.TabIndex = 0;
@@ -69,7 +69,7 @@
             // loginSendButton
             // 
             this.loginSendButton.Highlight = false;
-            this.loginSendButton.Location = new System.Drawing.Point(86, 393);
+            this.loginSendButton.Location = new System.Drawing.Point(71, 317);
             this.loginSendButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.loginSendButton.Name = "loginSendButton";
             this.loginSendButton.Size = new System.Drawing.Size(175, 31);
@@ -84,7 +84,7 @@
             // registerSendButton
             // 
             this.registerSendButton.Highlight = false;
-            this.registerSendButton.Location = new System.Drawing.Point(86, 393);
+            this.registerSendButton.Location = new System.Drawing.Point(71, 317);
             this.registerSendButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.registerSendButton.Name = "registerSendButton";
             this.registerSendButton.Size = new System.Drawing.Size(175, 31);
@@ -101,7 +101,7 @@
             this.passwdTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.passwdTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.passwdTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.passwdTB.Location = new System.Drawing.Point(43, 335);
+            this.passwdTB.Location = new System.Drawing.Point(28, 259);
             this.passwdTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwdTB.Multiline = false;
             this.passwdTB.Name = "passwdTB";
@@ -122,7 +122,7 @@
             this.usernameTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.usernameTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.usernameTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.usernameTB.Location = new System.Drawing.Point(43, 296);
+            this.usernameTB.Location = new System.Drawing.Point(28, 220);
             this.usernameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.usernameTB.Multiline = false;
             this.usernameTB.Name = "usernameTB";
@@ -142,7 +142,7 @@
             this.mailTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.mailTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.mailTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.mailTB.Location = new System.Drawing.Point(43, 257);
+            this.mailTB.Location = new System.Drawing.Point(28, 181);
             this.mailTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mailTB.Multiline = false;
             this.mailTB.Name = "mailTB";
@@ -160,7 +160,7 @@
             // loginButton
             // 
             this.loginButton.Highlight = false;
-            this.loginButton.Location = new System.Drawing.Point(86, 315);
+            this.loginButton.Location = new System.Drawing.Point(71, 239);
             this.loginButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(175, 31);
@@ -174,7 +174,7 @@
             // registerButton
             // 
             this.registerButton.Highlight = false;
-            this.registerButton.Location = new System.Drawing.Point(86, 276);
+            this.registerButton.Location = new System.Drawing.Point(71, 200);
             this.registerButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.registerButton.Name = "registerButton";
             this.registerButton.Size = new System.Drawing.Size(175, 31);
@@ -189,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 729);
+            this.ClientSize = new System.Drawing.Size(422, 729);
             this.Controls.Add(this.loginPanel);
             this.Location = new System.Drawing.Point(0, 0);
             this.MaximizeBox = false;

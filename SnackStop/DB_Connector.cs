@@ -37,7 +37,7 @@ namespace SnackStop
                 UpdateConString();
             }
 
-        /*public List<List<string?>> GetData(string query)
+        public List<List<string?>> GetData(string query)
         {
             // make 2d array for data 
             var resultData = new List<List<string?>>();
@@ -80,7 +80,9 @@ namespace SnackStop
 
             return resultData;
         }
-        */
+        
+
+        /*
         public List<List<string?>> GetData(string query, Dictionary<string, object>? parameters = null)
         {
             var resultData = new List<List<string?>>();
@@ -123,6 +125,7 @@ namespace SnackStop
 
             return resultData;
         }
+        */
 
 
 
