@@ -87,8 +87,8 @@ namespace SnackStop
                     this.DialogResult = DialogResult.OK;
                     return;
 
-                    if (mailTB.Text == credentials[0] && usernameTB.Text == credentials[1] && passwdTB.Text == credentials[2])
-                    {
+                    
+                    
                         // hide login window
                         this.Hide();
 
@@ -102,7 +102,7 @@ namespace SnackStop
                         mainWindow.FormClosed += (s, args) => this.Close();
 
                         return;
-                    }
+                    
                 }
             }
 
