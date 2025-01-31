@@ -25,7 +25,8 @@ namespace SnackStop
             // switch scene to register
             registerButton.Hide();
             loginButton.Hide();
-
+            Loginlabel1.Hide();
+            newuserlabel1.Hide();
             mailTB.Show();
             usernameTB.Show();
             passwdTB.Show();
@@ -38,6 +39,8 @@ namespace SnackStop
             usernameTB.Show();
             passwdTB.Show();
             loginSendButton.Show();
+            Loginlabel1.Hide();
+            newuserlabel1.Hide();
         }
 
         private void testbox_Click(object sender, EventArgs e)
@@ -105,6 +108,22 @@ namespace SnackStop
                 
                 loginSendButton_Click(sender, e);
             }
+        }
+
+       //Trash
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Loginlabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newuserlabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

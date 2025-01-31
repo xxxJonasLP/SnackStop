@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj": {}
+    "C:\\Users\\Wadim\\source\\repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj": {
+    "C:\\Users\\Wadim\\source\\repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj",
+        "projectUniqueName": "C:\\Users\\Wadim\\source\\repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj",
         "projectName": "SnackStop",
-        "projectPath": "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj",
+        "projectPath": "C:\\Users\\Wadim\\source\\repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj",
         "packagesPath": "C:\\Users\\Wadim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\obj\\",
+        "outputPath": "C:\\Users\\Wadim\\source\\repos\\xxxJonasLP\\SnackStop\\SnackStop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
