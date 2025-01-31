@@ -53,11 +53,10 @@
             this.loginPanel.HorizontalScrollbar = false;
             this.loginPanel.HorizontalScrollbarBarColor = true;
             this.loginPanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.loginPanel.HorizontalScrollbarSize = 8;
-            this.loginPanel.Location = new System.Drawing.Point(35, 40);
-            this.loginPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.loginPanel.HorizontalScrollbarSize = 11;
+            this.loginPanel.Location = new System.Drawing.Point(40, 53);
             this.loginPanel.Name = "loginPanel";
-            this.loginPanel.Size = new System.Drawing.Size(296, 466);
+            this.loginPanel.Size = new System.Drawing.Size(338, 621);
             this.loginPanel.Style = MetroFramework.MetroColorStyle.Blue;
             this.loginPanel.StyleManager = null;
             this.loginPanel.TabIndex = 0;
@@ -65,14 +64,15 @@
             this.loginPanel.VerticalScrollbar = false;
             this.loginPanel.VerticalScrollbarBarColor = true;
             this.loginPanel.VerticalScrollbarHighlightOnWheel = false;
-            this.loginPanel.VerticalScrollbarSize = 9;
+            this.loginPanel.VerticalScrollbarSize = 10;
             // 
             // loginSendButton
             // 
             this.loginSendButton.Highlight = false;
-            this.loginSendButton.Location = new System.Drawing.Point(75, 295);
+            this.loginSendButton.Location = new System.Drawing.Point(86, 393);
+            this.loginSendButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.loginSendButton.Name = "loginSendButton";
-            this.loginSendButton.Size = new System.Drawing.Size(153, 23);
+            this.loginSendButton.Size = new System.Drawing.Size(175, 31);
             this.loginSendButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.loginSendButton.StyleManager = null;
             this.loginSendButton.TabIndex = 12;
@@ -84,9 +84,10 @@
             // registerSendButton
             // 
             this.registerSendButton.Highlight = false;
-            this.registerSendButton.Location = new System.Drawing.Point(75, 295);
+            this.registerSendButton.Location = new System.Drawing.Point(86, 393);
+            this.registerSendButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.registerSendButton.Name = "registerSendButton";
-            this.registerSendButton.Size = new System.Drawing.Size(153, 23);
+            this.registerSendButton.Size = new System.Drawing.Size(175, 31);
             this.registerSendButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.registerSendButton.StyleManager = null;
             this.registerSendButton.TabIndex = 11;
@@ -100,11 +101,12 @@
             this.passwdTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.passwdTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.passwdTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.passwdTB.Location = new System.Drawing.Point(38, 251);
+            this.passwdTB.Location = new System.Drawing.Point(43, 335);
+            this.passwdTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwdTB.Multiline = false;
             this.passwdTB.Name = "passwdTB";
             this.passwdTB.SelectedText = "";
-            this.passwdTB.Size = new System.Drawing.Size(220, 23);
+            this.passwdTB.Size = new System.Drawing.Size(251, 31);
             this.passwdTB.Style = MetroFramework.MetroColorStyle.Blue;
             this.passwdTB.StyleManager = null;
             this.passwdTB.TabIndex = 10;
@@ -113,17 +115,19 @@
             this.passwdTB.UseStyleColors = false;
             this.passwdTB.Visible = false;
             this.passwdTB.Click += new System.EventHandler(this.passwdTB_Click);
+            this.passwdTB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passwdTB_KeyDown);
             // 
             // usernameTB
             // 
             this.usernameTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.usernameTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.usernameTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.usernameTB.Location = new System.Drawing.Point(38, 222);
+            this.usernameTB.Location = new System.Drawing.Point(43, 296);
+            this.usernameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.usernameTB.Multiline = false;
             this.usernameTB.Name = "usernameTB";
             this.usernameTB.SelectedText = "";
-            this.usernameTB.Size = new System.Drawing.Size(220, 23);
+            this.usernameTB.Size = new System.Drawing.Size(251, 31);
             this.usernameTB.Style = MetroFramework.MetroColorStyle.Blue;
             this.usernameTB.StyleManager = null;
             this.usernameTB.TabIndex = 9;
@@ -138,11 +142,12 @@
             this.mailTB.FontSize = MetroFramework.MetroTextBoxSize.Small;
             this.mailTB.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.mailTB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.mailTB.Location = new System.Drawing.Point(38, 193);
+            this.mailTB.Location = new System.Drawing.Point(43, 257);
+            this.mailTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mailTB.Multiline = false;
             this.mailTB.Name = "mailTB";
             this.mailTB.SelectedText = "";
-            this.mailTB.Size = new System.Drawing.Size(220, 23);
+            this.mailTB.Size = new System.Drawing.Size(251, 31);
             this.mailTB.Style = MetroFramework.MetroColorStyle.Blue;
             this.mailTB.StyleManager = null;
             this.mailTB.TabIndex = 8;
@@ -155,9 +160,10 @@
             // loginButton
             // 
             this.loginButton.Highlight = false;
-            this.loginButton.Location = new System.Drawing.Point(75, 236);
+            this.loginButton.Location = new System.Drawing.Point(86, 315);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(153, 23);
+            this.loginButton.Size = new System.Drawing.Size(175, 31);
             this.loginButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.loginButton.StyleManager = null;
             this.loginButton.TabIndex = 3;
@@ -168,9 +174,10 @@
             // registerButton
             // 
             this.registerButton.Highlight = false;
-            this.registerButton.Location = new System.Drawing.Point(75, 207);
+            this.registerButton.Location = new System.Drawing.Point(86, 276);
+            this.registerButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(153, 23);
+            this.registerButton.Size = new System.Drawing.Size(175, 31);
             this.registerButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.registerButton.StyleManager = null;
             this.registerButton.TabIndex = 2;
@@ -180,15 +187,14 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 547);
+            this.ClientSize = new System.Drawing.Size(419, 729);
             this.Controls.Add(this.loginPanel);
             this.Location = new System.Drawing.Point(0, 0);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Login";
-            this.Padding = new System.Windows.Forms.Padding(18, 60, 18, 15);
+            this.Padding = new System.Windows.Forms.Padding(21, 80, 21, 20);
             this.TextAlign = MetroFramework.Forms.TextAlign.Right;
             this.TopMost = true;
             this.loginPanel.ResumeLayout(false);

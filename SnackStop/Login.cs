@@ -94,5 +94,15 @@ namespace SnackStop
 
 
         }
+
+        private void passwdTB_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Using enter key for login
+            if (e.KeyCode == Keys.Enter)
+            {
+                
+                loginSendButton_Click(sender, e);
+            }
+        }
     }
 }
