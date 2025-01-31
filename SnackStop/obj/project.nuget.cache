@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6UpitGPyUhYlgDSMvSqym4ZLndrIbTmdTUdZ/ij1l4AMt1dxzaPZmQ2AaZtIGSR6LYea7rTfdLcTnU10Mywxw==",
+  "dgSpecHash": "mooF2tEYwjhnTsCuaK50dzitS5VTPgOJm5puqsXOidIqapH7bx6AmOVxNwDFLD9SJdwQG1XDqb9+kLY/cEazww==",
   "success": true,
-  "projectFilePath": "E:\\ProjektWoche\\SnackStop\\SnackStop\\SnackStop.csproj",
+  "projectFilePath": "C:\\Users\\Wadim\\Source\\Repos\\xxxJonasLP\\SnackStop\\SnackStop\\SnackStop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wadim\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Wadim\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
