@@ -37,52 +37,96 @@ namespace SnackStop
                 UpdateConString();
             }
 
-            public List<List<string?>> GetData(string query)
+        /*public List<List<string?>> GetData(string query)
+        {
+            // make 2d array for data 
+            var resultData = new List<List<string?>>();
+
+            using (MySqlConnection conn = new MySqlConnection(conString))
             {
-                // make 2d array for data 
-                var resultData = new List<List<string?>>();
-
-                using (MySqlConnection conn = new MySqlConnection(conString))
+                try
                 {
-                    try
+                    conn.Open();
+                    Console.WriteLine("Connected");
+
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
-                        conn.Open();
-                        Console.WriteLine("Connected");
+                        // get num of columns in table
+                        int columnCount = reader.FieldCount;
 
-                        MySqlCommand cmd = new MySqlCommand(query, conn);
-
-                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        while (reader.Read())
                         {
-                            // get num of columns in table
-                            int columnCount = reader.FieldCount;
+                            // make list for rows
+                            var row = new List<string?>();
 
-                            while (reader.Read())
+                            for (int i = 0; i < columnCount; i++)
                             {
-                                // make list for rows
-                                var row = new List<string?>();
-
-                                for (int i = 0; i < columnCount; i++)
-                                {
-                                    // add row to list
-                                    row.Add(reader[i].ToString());
-                                }
-
-                                // add rowlist to resultdata
-                                resultData.Add(row);
+                                // add row to list
+                                row.Add(reader[i].ToString());
                             }
+
+                            // add rowlist to resultdata
+                            resultData.Add(row);
                         }
                     }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Fehler: " + ex.ToString());
-                    }
-                }   
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Fehler: " + ex.ToString());
+                }
+            }   
 
-                return resultData;
+            return resultData;
+        }
+        */
+        public List<List<string?>> GetData(string query, Dictionary<string, object>? parameters = null)
+        {
+            var resultData = new List<List<string?>>();
+
+            using (MySqlConnection conn = new MySqlConnection(conString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    if (parameters != null)
+                    {
+                        foreach (var param in parameters)
+                        {
+                            cmd.Parameters.AddWithValue(param.Key, param.Value);
+                        }
+                    }
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        int columnCount = reader.FieldCount;
+
+                        while (reader.Read())
+                        {
+                            var row = new List<string?>();
+                            for (int i = 0; i < columnCount; i++)
+                            {
+                                row.Add(reader[i]?.ToString());
+                            }
+                            resultData.Add(row);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Fehler: " + ex.Message);
+                }
             }
 
+            return resultData;
+        }
 
-            public void executeQuery(string query)
+
+
+        public void executeQuery(string query)
             {
                 using (MySqlConnection conn = new MySqlConnection(conString))
                 {
